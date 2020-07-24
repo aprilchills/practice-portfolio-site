@@ -1,0 +1,77 @@
+.box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.box:hover {
+  border: 2px solid white;
+  transition: border 0.5s;
+}
+
+.box-one {
+  background-color: lightcoral;
+  top: 0;
+  left: 0;
+  /* connect animation */
+  animation: main-box-one 4s forwards;
+}
+
+.box-two {
+  background-color: lightblue;
+  top: 0;
+  right: 0;
+  animation: main-box-two 4s forwards;
+}
+
+.box-three {
+  background-color: lightgreen;
+  bottom: 0;
+  left: 0;
+  animation: main-box-three 4s forwards;
+}
+
+.box-four {
+  background-color: lightgoldenrodyellow;
+  bottom: 0;
+  right: 0;
+  animation: main-box-four 4s forwards;
+}
+
+@keyframes main-box-one {
+  /* set up travel value */
+  to {
+    top: 50%;
+    left: 50%;
+    background-color: black;
+    border-radius: 0 0 100px;
+  }
+}
+
+@keyframes main-box-two {
+  /* set up travel value */
+  to {
+    top: 50%;
+    right: 50%;
+    background-color: black;
+    border-radius: 0 0 0 100px;
+  }
+}
+@keyframes main-box-three {
+  /* set up travel value */
+  to {
+    bottom: 50%;
+    left: 50%;
+    background-color: black;
+    border-radius: 0 100px 0 0;
+  }
+}
+
+@keyframes main-box-four {
+  /* set up travel value */
+  to {
+    bottom: 50%;
+    right: 50%;
+    background-color: black;
+    border-radius: 100px 0 0;
+  }
+}
