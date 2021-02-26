@@ -7,3 +7,4 @@ Font Awesome
 Netlify
 
 probably more that I left out...
+[![Netlify Status](https://api.netlify.com/api/v1/badges/95b7da1a-779c-443f-8ddb-d72a9c6c7304/deploy-status)](https://app.netlify.com/sites/lala-lantic/deploys)
